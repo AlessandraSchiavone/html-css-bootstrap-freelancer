@@ -1,0 +1,88 @@
+.header_top{
+    background-color: #2C3E50;
+    height:80px;
+    line-height: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+
+.header_top [class*="fa-bars"]{ 
+    font-size:18px;
+    border: 1px solid white;
+    border-radius:2px;
+    padding:5px 10px;
+    color:grey;
+}
+.header_jumbotron{
+    text-align: center;
+    height:500px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 900;
+    background-color: #1ABC9C;
+}
+.header_jumbotron img{
+    margin-top:20px;
+    height:250px;
+}
+.header_jumbotron hr{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.header_jumbotron h4{
+    font-weight: 500;
+    padding-top:5px;
+}
+#portfolio,
+#contact{
+    text-align: center;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight:700;
+    color:#2C3E50;
+    margin-bottom:50px;
+}
+#portfolio img{
+    width:100%;
+    margin-top:30px;
+    border-radius: 2%;
+}
+#about{
+    height:600px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #1ABC9C;
+    color:white;
+    padding-bottom:20px;
+}
+#about p{
+    text-align: left;
+}
+    
+#contact{
+    height:400px;
+    text-align: left;
+}
+#contact h3{
+    text-align: center;
+}
+.footer_link{
+    text-align: center;
+    background-color: #3A546D;
+    color:white;
+    height:300px;
+}
+.footer_link h4{
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.footer_copyright{
+    text-align: center;
+    background-color: #2C3E50;
+    color:white;
+    height:80px;
+}
+.footer_copyright h5{
+    margin-top:20px;
+}

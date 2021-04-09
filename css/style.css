@@ -34,8 +34,7 @@
     font-weight: 500;
     padding-top:5px;
 }
-#portfolio,
-#contact{
+#portfolio{
     text-align: center;
     text-transform: uppercase;
     font-size:20px;
@@ -48,24 +47,51 @@
     margin-top:30px;
     border-radius: 2%;
 }
-#about{
-    height:600px;
+#about{ 
+    padding-top:30px;
     text-align: center;
-    text-transform: uppercase;
     background-color: #1ABC9C;
     color:white;
-    padding-bottom:20px;
+    padding-bottom:30px;
 }
-#about p{
+.btn-white{
+    font-size: 20px;;
+    margin-top:20px;
+    border:1px solid white;
+    padding:5px;
+    text-decoration: none;
+    color:white;
+}
+
+.btn-green{
+    font-size:18px;
+    color:white;
+    border-radius: 5px;
+    background-color: #1ABC9C;  
+    padding:10px 10px;
+}
+#about h3{ 
+    text-transform: uppercase;
+}
+#about p{ 
+    padding-top:20px ;
+    font-size:18px;
     text-align: left;
 }
     
 #contact{
-    height:400px;
+    color:#2C3E50;
+    height:500px;
     text-align: left;
 }
 #contact h3{
     text-align: center;
+}
+.box{
+    margin-top:30px;
+    padding-bottom:100px;
+    border-bottom:1px solid lightgrey;
+    margin-bottom:20px;
 }
 .footer_link{
     text-align: center;

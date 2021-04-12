@@ -2,24 +2,68 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/*header*/
 
-.header_top{
-    background-color: #2C3E50;
+ /* .header_top{
     height:80px;
-    font-size:16px;
-    line-height: 80px;
-    font-weight: 900;
-    text-transform: uppercase;
+    
+}  */
+/*navbar*/
+.ms_navbar {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2C3E50;
     color:white;
+    margin-bottom: 0; 
+}
+.ms_navbar .navbar-brand {
+    height: 70px;
+}
+.ms_navbar a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.ms_navbar .navbar-brand {
+    line-height: 40px;
+    font-size:18px;
+    font-weight: 900;
+}
+.ms_navbar .navbar-toggle .icon-bar {
+    width: 24px;
+    height: 3px;
+    background-color: grey;   
+}
+/* .ms_navbar .active > a {
+    vertical-align: middle;
+    border-radius: 2%;
+    background-color: #1ABC9C ;
+    color: white;
+    text-decoration: none;
+} */
+.ms_navbar .navbar-toggle{
+    border-color:white;
 }
 
-.header_top [class*="fa-bars"]{ 
-    font-size:18px;
-    border: 1px solid white;
-    border-radius:2px;
-    padding:5px 10px;
-    color:grey;
+.ms_navbar .navbar-nav>li>a {
+    line-height: 40px;
+} 
+.ms_navbar .nav>li>a:hover {
+    background-color:#2C3E50 ;
+    color: #1ABC9C;
+    text-decoration: none;
 }
+.ms_navbar .navbar-nav>li {
+    vertical-align: middle;
+    height: 70px;
+    line-height: 70px;
+} 
+
+.ms_navbar .navbar-toggle {
+    margin-top: 16.5px;
+    margin-bottom: 16.5px;
+}
+/*jumbotron*/
 .header_jumbotron{
     padding:80px 15px;
     text-align: center;
@@ -45,6 +89,8 @@ body{
     font-size:25px;
     padding-top:5px;
 }
+
+/*decorazioe */
 .division{
     padding:10px 0;
     font-size:30px;
@@ -56,6 +102,7 @@ body{
     padding:0;
 }
 
+/*sezione portfolio*/
 
 #portfolio{
     text-align: center;
@@ -79,6 +126,7 @@ body{
     border-bottom:3px solid #2C3E50;
 }
 
+/*sezione about*/
 #about{ 
     text-align: center;
     background-color: #1ABC9C;
@@ -93,7 +141,18 @@ body{
     margin-top:50px;
     margin-bottom:50px;
 }
-
+#about h2{ 
+    font-size:50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#about p{ 
+    margin-top:10px;
+    font-size:18px;
+    text-align: left;
+}
+ 
+/*bottone bianco*/
 .btn-white{
     font-size: 20px;
     border:1px solid white;
@@ -107,30 +166,7 @@ body{
     background-color: #e0e5ec;
     color:black;
 }
-
-.btn-green{
-    font-size:18px;
-    color:white;
-    border-radius: 5px;
-    background-color: #1ABC9C;  
-    padding:10px 20px;
-}
-.btn-green:hover{
-    background-color:#369772;
-    text-decoration: none;
-    color: white;
-}
-#about h2{ 
-    font-size:50px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-#about p{ 
-    margin-top:10px;
-    font-size:18px;
-    text-align: left;
-}
- 
+/*sezione contact*/
 #contact{
     color:#2C3E50;
     padding-bottom:50px;
@@ -151,6 +187,20 @@ body{
     margin-top:30px;
     margin-bottom:20px;
 }
+/*bottone verde*/
+.btn-green{
+    font-size:18px;
+    color:white;
+    border-radius: 5px;
+    background-color: #1ABC9C;  
+    padding:10px 20px;
+}
+.btn-green:hover{
+    background-color:#369772;
+    text-decoration: none;
+    color: white;
+}
+/*input text*/
 ::placeholder{
     font-size: 20px;
     color:#2C3E50;
@@ -164,13 +214,17 @@ body{
     border:none;
 }
 #message { 
+    border:none;
+    border-bottom: 1px solid grey;
     padding:5px;
     height:200px;
     width:100%;
 }
-.box-contact hr{
-    border-bottom:1px solid #2C3E50;
-}
+
+
+/*footer*/
+
+
 .footer_link{
     padding:30px 0;
     text-align: center;
@@ -184,6 +238,29 @@ body{
     line-height: 1.5;
     font-size: 22px;
 }
+.social{  
+    width:90%;
+    margin:0 auto;
+} 
+.social a{
+    line-height:40px; 
+    padding:10px;
+    border:1px solid white;
+    border-radius:50%;
+    color:white;
+}
+.social [class*="col-"]{
+    padding:0;
+}
+.social a >i{
+    vertical-align: middle;
+    font-size:18px;
+}
+.social a:hover{
+    background-color: white;
+    color:black;
+}
+
 .color-blugreen{
     color:#1ABC9C;
 }

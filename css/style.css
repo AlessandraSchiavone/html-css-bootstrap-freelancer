@@ -148,7 +148,6 @@ body{
    color:white;
    font-size: 100px;
    font-weight:bold;
-   text-align: cen;
   }
 
 #portfolio hr{
@@ -179,7 +178,7 @@ body{
 }
 #about p{ 
     margin-top:10px;
-    font-size:18px;
+    font-size:20px;
     text-align: left;
 }
  
